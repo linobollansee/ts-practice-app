@@ -1,3 +1,11 @@
+# Ignore the node_modules folder, which contains all installed npm packages.
+# This folder can be very large and can be rebuilt from package.json.
 node_modules/
+
+# Ignore the dist folder, which typically contains compiled or bundled code.
+# These files are generated during the build process and don't need to be versioned.
 dist/
+
+# Ignore the .env file, which usually contains sensitive environment variables.
+# This prevents secrets like API keys or passwords from being committed.
 .env
